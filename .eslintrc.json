@@ -1,0 +1,29 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "comma-dangle":"error",
+        "camelcase":"error",
+        "array-bracket-spacing":"error",
+        "comma-spacing":"error",
+        "array-callback-return":"error",
+        "indent": ["error", 2],
+        "comma-style":"error",
+        "no-unused-vars":"error"
+    }
+}

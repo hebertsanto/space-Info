@@ -42,13 +42,13 @@ export const Header = () => {
             missions
           </Link>
           <Link
-            component="button"
+            component="a"
             variant="body1"
-            href="#"
+            href="/spacex"
             color='#fff'
-            underline="hover" 
+            underline="hover"
           >
-            space-x
+          spacex
           </Link>
         </div>
       </Toolbar>
